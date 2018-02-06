@@ -1,0 +1,17 @@
+{
+  "name": "lambda-s3-writer",
+  "version": "0.0.1",
+  "description": "An AWS node-lambda for writing arbitrary json files to s3 bucket",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beefoo/lambda-s3-writer.git"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.189.0"
+  },
+  "devDependencies": {
+    "node-lambda": "^0.11.6"
+  }
+}
